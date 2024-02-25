@@ -17,17 +17,19 @@
     
     <nav class="mobile-nav">
       <img src="images/darkLogo.svg" alt="logo">
-      <img src="images/icon-hamburger.svg" alt="menu">
+      <img class="open-menu" onclick=openMenu() src="images/icon-hamburger.svg" alt="open menu">
+      <img class="close-menu" onclick=closeMenu() src="images/icon-close.svg" alt="close menu">
+      
     </nav>
     
     <nav class="desktop-nav">
       <img src="images/logo.svg" alt="logo">
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Blog</li>
-        <li>Careers</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Careers</a></li>
       </ul>
       <button type="button">Request Invite</button>
     </nav>
@@ -35,6 +37,21 @@
   </header>
 
   <main>
+
+    <section class="popup">
+
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+    </section>
+    
     <section class="landing">
       
       <div class="imgLayer">
@@ -279,5 +296,7 @@
     </div>
 
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
