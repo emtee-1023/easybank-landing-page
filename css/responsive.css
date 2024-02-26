@@ -340,8 +340,9 @@
         margin-left: 0;
     }
 
-    
-
+    footer {
+        padding-left: 300px;
+    }
 
 }
 
