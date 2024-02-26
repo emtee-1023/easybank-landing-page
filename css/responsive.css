@@ -1,6 +1,118 @@
+
+/* MOBILE LANDSCAPE STYLES */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    header {
+        max-width: none;
+    }
+
+    main {
+        max-width: 760px;
+    }
+
+    .mobile-nav {
+        padding: 0px 40px;
+    }
+
+    .img1-mobile,
+    .img2 {
+        max-width: 500px;
+        left: 120px;
+    }
+
+    .article-items { 
+        width: 100%;
+    }
+
+    .author {
+        align-self: center;
+    }
+
+    .articles .description p {
+        margin-left: 0;
+        margin: 0px 60px;
+        text-align: center;
+    }
+
+}
+
+/* TABLET STYLES */
+@media screen and (min-width: 768px) and (max-width:991px) {
+    
+    header {
+        max-width: none;
+    }
+
+    main {
+        max-width: 990px;
+    }
+
+    .mobile-nav {
+        padding: 0px 40px;
+    }
+
+    .img1-mobile,
+    .img2 {
+        max-width: 500px;
+        left: 250px;
+    }
+
+    .landing .description {
+        margin: 0px 100px;
+    }
+
+    .services .intro .description {
+        margin: 0px 100px;
+    }
+
+    .services .services-container {
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .services .services-items {
+        max-width: 300px;
+    }
+
+    .articles .articles-container {
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .article-items { 
+        max-width: 400px;
+        height: auto;
+    }
+
+    .author {
+        align-self: center;
+    }
+
+    .articles .title h2 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .articles .description p {
+        margin-left: 0;
+        margin: 0px 60px;
+        text-align: center;
+    }
+
+}
+
 /* DESKTOP STYLES */
 
-@media screen and  (min-width: 1000px) {
+@media screen and  (min-width: 992px) {
     .mobile-nav {
         display: none;
     }
@@ -143,11 +255,13 @@
 
     footer {
         align-items: flex-start;
+        align-content: flex-start;
         flex-wrap: wrap;
         height: 200px;
         gap: 30px;
         justify-content: center;
         padding-bottom: 0;
+        padding-left: 300px;
     }
 
     footer .logo {
@@ -175,7 +289,7 @@
 
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1520px) {
+@media screen and (min-width: 992px) and (max-width: 1669px) {
 
     .services {
         padding-left: 0;
