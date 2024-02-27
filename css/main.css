@@ -296,13 +296,14 @@ header {
 
 .articles img {
     width: 100%;
+    margin-left: 45px;
     height: 310px;
     border-radius: 10px 10px 0px 0px;
 } 
 
 .author {
     align-self: flex-start;
-    margin-left: 45px;
+    margin-left: 90px;
     margin-top: 20px;
 }
 
@@ -313,11 +314,11 @@ header {
 }
 
 .articles .title h2 {
-    margin-left: 45px;
+    margin-left: 90px;
 }
 
 .articles .description p {
-    margin-left: 45px;
+    margin-left: 90px;
     text-align: left;
 }
 

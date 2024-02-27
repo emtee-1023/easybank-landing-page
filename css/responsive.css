@@ -23,6 +23,10 @@
         width: 100%;
     }
 
+    .articles img {
+        margin-left: 0;
+    } 
+
     .author {
         align-self: center;
     }
@@ -92,6 +96,10 @@
         max-width: 400px;
         height: auto;
     }
+
+    .articles img {
+        margin-left: 0;
+    } 
 
     .author {
         align-self: center;
@@ -244,6 +252,7 @@
 
     .articles img {
         height: 200px;
+        margin-left: 0;
     }
 
     .articles .author,
@@ -329,6 +338,10 @@
         gap: 50px;
         justify-content: center;
     }
+
+    .articles img {
+        margin-left: 0;
+    } 
 
     .article1 img {
         width: 265px;
